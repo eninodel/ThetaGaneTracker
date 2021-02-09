@@ -65,7 +65,7 @@ public class ThetaGangTracker {
         Session session = Session.getInstance(properties, new Authenticator(){
             @Override
             protected PasswordAuthentication getPasswordAuthentication(){
-                return new PasswordAuthentication(sender, "Bald0925");
+                return new PasswordAuthentication(sender, "");
             }
         });
         try{
